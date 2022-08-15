@@ -1,0 +1,17 @@
+.container{
+
+    margin: auto;
+    width: 50%;
+}
+input, label{
+    display: block;
+}
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#input-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+}
