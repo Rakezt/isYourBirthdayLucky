@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#312e81;
-    --sec-color:#6ee7b7;
+    --primary-color:#6ee7b7;
+    --sec-color:#312e81;
     --off-white:#f5f5f5;
  }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color:var(--primary-color);
-    border: 1px solid var(--off-white);
+    background-color:var(--primary-color);    
+    font-size: x-large;
 }
 
 .container{
     text-align: center;
     margin: auto;
-    width: 40%;
+    width: 80%;
     color: var(--sec-color);
 }
 input, label{
     display: block;
 }
 input{
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
     width: 100%;
+    border-radius: 0.5rem;
+    font-size: large;
 }
 #input-number{
     display: block;
@@ -31,7 +34,8 @@ input{
 }
 button{
     border-radius: 1.6rem;
-    margin: 0.3rem;
-    padding: 0.3rem 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem 3rem;
+    font-size: large;
 
 }
