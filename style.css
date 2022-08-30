@@ -39,3 +39,24 @@ button{
     font-size: large;
 
 }
+h2{
+    text-shadow: 2px 2px var(--off-white);
+}
+h3{
+    margin-bottom: 0.1rem;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    margin: 0.0rem;
+        
+}
+.link{    
+    text-decoration: none;
+    padding: 0.0rem;
+    color: var(--off-white);
+    font-weight: bold;
+    
+}
