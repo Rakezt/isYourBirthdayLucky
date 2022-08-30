@@ -50,16 +50,18 @@ h3{
 }
 .list-non-bullet{
     list-style: none;
+    
 }
 .list-item-inline{
     display: inline;
-    margin: 0.0rem;
+
         
 }
 .link{    
     text-decoration: none;
-    padding: 0.0rem;
+    padding: 0.2rem 0.8rem;
     color: var(--off-white);
+    font-size: medium;
     font-weight: bold;
     
 }
